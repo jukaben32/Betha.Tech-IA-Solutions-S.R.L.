@@ -44,3 +44,15 @@ La landing presenta 12 soluciones sectoriales seleccionadas a partir del inventa
 Los siete iconos sociales son demostraciones sin enlaces oficiales. Configura los destinos en `socialProfiles` dentro de `dist/index.html`. Los SVG provienen de Bootstrap Icons, licencia MIT (ver `THIRD_PARTY_NOTICES.md`).
 
 Para una integración real del formulario con WACRM, usa un backend con una clave de API de alcance `contacts:write`. Nunca incluyas la clave en el HTML público. Confirma primero dominio, cuenta, consentimiento y campos de contacto.
+
+## Publicar en Vercel
+
+1. En Vercel, selecciona Add New → Project e importa `jukaben32/Betha.Tech-IA-Solutions-S.R.L.`.
+2. Usa la raíz del repositorio como Root Directory (`./`).
+3. Framework Preset: Other. La configuración de `vercel.json` ya define la salida `dist`, omite instalación y ejecuta `npm test` antes de publicar.
+4. No necesitas variables de entorno para la landing actual.
+5. Pulsa Deploy. La URL pública se asigna al completar el despliegue.
+
+`server.mjs` es solo para desarrollo local; Vercel sirve directamente los archivos de `dist/`. La ruta `/crm` redirige al dashboard confirmado del CRM.
+
+El CRM está enlazado, pero no sincronizado: el formulario sigue descargando un brief local. Para enviar prospectos hace falta un endpoint de servidor, campos de contacto, consentimiento y una clave WACRM con `contacts:write` guardada como secreto de Vercel. Esa conexión no está activada.
