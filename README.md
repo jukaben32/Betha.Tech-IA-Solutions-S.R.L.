@@ -39,7 +39,7 @@ Antes del lanzamiento comercial, personaliza la marca, los datos de contacto y l
 
 ## Catálogo, CRM y redes
 
-La landing presenta 12 soluciones sectoriales seleccionadas a partir del inventario de GitHub. Los botones de implementación completan el objetivo del brief. El enlace del CRM está configurado como `https://wacrm-weld-eight.vercel.app/dashboard`, confirmado por el propietario. No hay captura automática de leads ni sincronización con el CRM.
+La landing presenta 15 proyectos destacados seleccionados por el propietario, con sus URLs de Vercel. Los botones de implementación completan el objetivo del brief. El enlace del CRM está configurado como `https://wacrm-weld-eight.vercel.app/dashboard`, confirmado por el propietario. No hay captura automática de leads ni sincronización con el CRM.
 
 Los siete iconos sociales son demostraciones sin enlaces oficiales. Configura los destinos en `socialProfiles` dentro de `dist/index.html`. Los SVG provienen de Bootstrap Icons, licencia MIT (ver `THIRD_PARTY_NOTICES.md`).
 
@@ -56,3 +56,9 @@ Para una integración real del formulario con WACRM, usa un backend con una clav
 `server.mjs` es solo para desarrollo local; Vercel sirve directamente los archivos de `dist/`. La ruta `/crm` redirige al dashboard confirmado del CRM.
 
 El CRM está enlazado, pero no sincronizado: el formulario sigue descargando un brief local. Para enviar prospectos hace falta un endpoint de servidor, campos de contacto, consentimiento y una clave WACRM con `contacts:write` guardada como secreto de Vercel. Esa conexión no está activada.
+
+## Portafolio destacado
+
+Los 15 destinos oficiales proporcionados por el propietario están en `proyectos-destacados.json` y se muestran en la sección Productos. Cada tarjeta permite abrir la web en otra pestaña y preparar un brief de implementación. Las descripciones expresan el enfoque del proyecto; no constituyen verificación de todas sus funciones, disponibilidad ni resultados.
+
+El código de OmniSched muestra la marca TimeAlign; la landing utiliza “TimeAlign / OmniSched” para identificarlo. Los nombres Smile Suite, Micheline / Beautera y Clara Medical AI se conservan sin atribuir módulos no verificados. El CRM Betha mantiene su sección y enlace independientes.

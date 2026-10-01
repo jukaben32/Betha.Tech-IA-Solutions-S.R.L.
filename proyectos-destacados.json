@@ -1,0 +1,107 @@
+[
+  {
+    "name": "InmobilIACall",
+    "category": "Atención y ventas",
+    "sector": "Inmobiliarias",
+    "description": "Agentes de IA y coordinación de consultas y visitas para negocios inmobiliarios.",
+    "url": "https://real-estate-multi-ai-agent-saa-s.vercel.app/"
+  },
+  {
+    "name": "MentorIApp",
+    "category": "Operación y datos",
+    "sector": "Educación",
+    "description": "Una plataforma de información escolar para dirección, secretaría y familias.",
+    "url": "https://n8n-school-expert-landingpage.vercel.app/"
+  },
+  {
+    "name": "SportGuru AI",
+    "category": "Operación y datos",
+    "sector": "Deporte",
+    "description": "Explora una aplicación de análisis y picks deportivos asistidos por IA.",
+    "url": "https://sport-guru-ai.vercel.app/"
+  },
+  {
+    "name": "Futuro del Empleo",
+    "category": "Operación y datos",
+    "sector": "Formación",
+    "description": "Explora roles, habilidades y rutas de aprendizaje ante el impacto de la inteligencia artificial.",
+    "url": "https://futuro-del-empleo-app.vercel.app/"
+  },
+  {
+    "name": "StylePreview Barber Pro",
+    "category": "Negocios locales",
+    "sector": "Belleza",
+    "description": "Atención y reservas para salones y barberías, con una experiencia adaptada al sector.",
+    "url": "https://stylepreview-barber-pro.vercel.app/"
+  },
+  {
+    "name": "NextStep Physio",
+    "category": "Negocios locales",
+    "sector": "Fisioterapia",
+    "description": "Una propuesta de atención administrativa y agenda para clínicas de rehabilitación.",
+    "url": "https://nextstepphysio.vercel.app/"
+  },
+  {
+    "name": "NailAtelier",
+    "category": "Negocios locales",
+    "sector": "Uñas",
+    "description": "Agentes y reservas adaptados a la operación de salones de uñas.",
+    "url": "https://nailatelier.vercel.app/"
+  },
+  {
+    "name": "EstetiCall",
+    "category": "Negocios locales",
+    "sector": "Estética",
+    "description": "Atención, reservas y gestión para centros de estética y spas.",
+    "url": "https://esteticall.vercel.app/"
+  },
+  {
+    "name": "Noir Ink Studio",
+    "category": "Negocios locales",
+    "sector": "Tatuajes",
+    "description": "Una experiencia de recepción, agenda y gestión de clientes para estudios de tatuajes.",
+    "url": "https://noirinkstudio.vercel.app/"
+  },
+  {
+    "name": "TimeAlign / OmniSched",
+    "category": "Atención y ventas",
+    "sector": "Agendamiento",
+    "description": "Calendarios y reservas para equipos que necesitan coordinar mejor su tiempo.",
+    "url": "https://omni-sched-saa-s-phvv.vercel.app/"
+  },
+  {
+    "name": "Smile Suite",
+    "category": "Negocios locales",
+    "sector": "Proyecto sectorial",
+    "description": "Conoce el proyecto Smile Suite y conversemos sobre su adaptación a tu negocio.",
+    "url": "https://smile-suite-493o.vercel.app/"
+  },
+  {
+    "name": "Micheline / Beautera",
+    "category": "Negocios locales",
+    "sector": "Proyecto sectorial",
+    "description": "Explora la experiencia Micheline / Beautera y sus posibilidades de implementación.",
+    "url": "https://micheline-v2-beautera-w72i.vercel.app/"
+  },
+  {
+    "name": "DriveIA",
+    "category": "Atención y ventas",
+    "sector": "Automoción",
+    "description": "Inventario, consultas y agenda para concesionarios y empresas de alquiler de vehículos.",
+    "url": "https://drive-ia-platform.vercel.app/"
+  },
+  {
+    "name": "Beauty & Barber AI",
+    "category": "Negocios locales",
+    "sector": "Belleza",
+    "description": "Asistentes de IA, atención y reservas para salones de belleza y barberías.",
+    "url": "https://beauty-barber-ai-agent-saa-s.vercel.app/"
+  },
+  {
+    "name": "Clara Medical AI",
+    "category": "Negocios locales",
+    "sector": "Salud",
+    "description": "Explora el proyecto Clara Medical AI y una propuesta de atención para el sector salud.",
+    "url": "https://clara-medical-ai.vercel.app/"
+  }
+]
