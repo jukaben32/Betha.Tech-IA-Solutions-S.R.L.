@@ -39,7 +39,7 @@ Antes del lanzamiento comercial, personaliza la marca, los datos de contacto y l
 
 ## Catálogo, CRM y redes
 
-La landing presenta 12 soluciones sectoriales seleccionadas a partir del inventario de GitHub. Los botones de implementación completan el objetivo del brief. El enlace del CRM está configurado como `https://wacrmbetha.tech`; su dominio no pudo resolverse durante la comprobación y debe confirmarse. No hay captura automática de leads ni sincronización con el CRM.
+La landing presenta 12 soluciones sectoriales seleccionadas a partir del inventario de GitHub. Los botones de implementación completan el objetivo del brief. El enlace del CRM está configurado como `https://wacrm-weld-eight.vercel.app/dashboard`, confirmado por el propietario. No hay captura automática de leads ni sincronización con el CRM.
 
 Los siete iconos sociales son demostraciones sin enlaces oficiales. Configura los destinos en `socialProfiles` dentro de `dist/index.html`. Los SVG provienen de Bootstrap Icons, licencia MIT (ver `THIRD_PARTY_NOTICES.md`).
 
