@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": "npm test",
+  "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/crm",
+      "destination": "https://wacrm-weld-eight.vercel.app/dashboard",
+      "permanent": false
+    }
+  ]
+}
