@@ -18,7 +18,7 @@ tabs[1].click();el('simulate').click();if(!el('flowResult').textContent.includes
 el('brief').submit({preventDefault(){}});if(!context.downloaded)throw Error('Brief download');
 console.log('Passed: JavaScript syntax, unique IDs, navigation anchors, ROI updates, flow switching and brief download.');
 if(/Nexo|NEXO|>nexo</.test(html))throw Error('Old branding');
-if(!html.includes('href="https://wacrmbetha.tech"'))throw Error('CRM destination');
+if(!html.includes('href="https://wacrm-weld-eight.vercel.app/dashboard"'))throw Error('CRM destination');
 const categories=['Atención y ventas','Negocios locales','Operación y datos'];
 const cards=[...html.matchAll(/class="product" data-category="([^"]+)"/g)].map(m=>({dataset:{category:m[1]},hidden:false}));
 if(cards.length!==12)throw Error('Product catalog');
