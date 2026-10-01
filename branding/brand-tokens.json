@@ -1,0 +1,22 @@
+{
+  "brand": "Betha AI",
+  "status": "proposal",
+  "tagline": "Automatiza. Conecta. Crece.",
+  "colors": {
+    "carbon": "#10120F",
+    "lime": "#C4ED85",
+    "ivory": "#F1F3EB",
+    "stone": "#A8AEA0",
+    "surface": "#191C17"
+  },
+  "typography": {
+    "display": "Helvetica Neue, Arial, sans-serif",
+    "body": "Segoe UI, Arial, sans-serif",
+    "technical": "Consolas, monospace"
+  },
+  "radii": {
+    "panel": 12,
+    "control": 7
+  },
+  "spacingUnit": 8
+}
