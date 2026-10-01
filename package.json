@@ -1,8 +1,13 @@
 {
-  "name": "nexo-ai-agency",
+  "name": "betha-ai-agency",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": { "start": "node server.mjs", "test": "node check.mjs" },
-  "engines": { "node": ">=18" }
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node check.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }

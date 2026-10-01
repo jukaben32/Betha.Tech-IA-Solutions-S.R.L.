@@ -1,6 +1,6 @@
-# Nexo AI
+# Betha AI
 
-Página web en español para una agencia de automatización, agentes de IA, aplicaciones y marketing. Nexo AI es el nombre provisional de la marca.
+Página web en español para una agencia de automatización, agentes de IA, aplicaciones y marketing. Marca comercial: Betha AI.
 
 ## Ejecutar
 
@@ -36,3 +36,11 @@ Publica el contenido de `dist/` en un proveedor de hosting estático. No hay com
 Las simulaciones no ejecutan integraciones reales. El formulario descarga un archivo local y no envía ni almacena datos. Los resultados del simulador de ahorro son estimaciones ilustrativas, no garantías comerciales.
 
 Antes del lanzamiento comercial, personaliza la marca, los datos de contacto y las condiciones de la agencia.
+
+## Catálogo, CRM y redes
+
+La landing presenta 12 soluciones sectoriales seleccionadas a partir del inventario de GitHub. Los botones de implementación completan el objetivo del brief. El enlace del CRM está configurado como `https://wacrmbetha.tech`; su dominio no pudo resolverse durante la comprobación y debe confirmarse. No hay captura automática de leads ni sincronización con el CRM.
+
+Los siete iconos sociales son demostraciones sin enlaces oficiales. Configura los destinos en `socialProfiles` dentro de `dist/index.html`. Los SVG provienen de Bootstrap Icons, licencia MIT (ver `THIRD_PARTY_NOTICES.md`).
+
+Para una integración real del formulario con WACRM, usa un backend con una clave de API de alcance `contacts:write`. Nunca incluyas la clave en el HTML público. Confirma primero dominio, cuenta, consentimiento y campos de contacto.
