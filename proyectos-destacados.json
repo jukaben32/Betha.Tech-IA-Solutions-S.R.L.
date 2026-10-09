@@ -131,5 +131,12 @@
     "sector": "CRM para WhatsApp",
     "description": "Centraliza conversaciones, contactos y seguimiento comercial de WhatsApp en un solo panel.",
     "url": "https://wacrm-weld-eight.vercel.app/login"
+  },
+  {
+    "name": "Dominican OTA",
+    "category": "Atención y ventas",
+    "sector": "Turismo y viajes",
+    "description": "Plataforma para agencias de viajes online: ventas por WhatsApp oficial con CRM, catálogo de tours, cotizaciones y vouchers en PDF.",
+    "url": "https://github.com/jukaben32/Dominican-OTA-Booking-System"
   }
 ]
