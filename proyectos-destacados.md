@@ -18,6 +18,7 @@ Selección proporcionada por el propietario. Estado de la landing: enlaces y bot
 | Micheline / Beautera | Proyecto sectorial | [Ver proyecto](https://micheline-v2-beautera-w72i.vercel.app/) |
 | VoiceOps | Talleres mecánicos | [Ver proyecto](https://crm-agentevoz.vercel.app/) |
 | EstateCall | Inmobiliarias | [Ver proyecto](https://saas-ia-agent-adaptable.vercel.app/) |
+| Sistema Restaurante | Restaurantes | [Ver proyecto](https://sistema-restaurante-peach.vercel.app/login) |
 | DriveIA | Automoción | [Ver proyecto](https://drive-ia-platform.vercel.app/) |
 | Beauty & Barber AI | Belleza | [Ver proyecto](https://beauty-barber-ai-agent-saa-s.vercel.app/) |
 | Clara Medical AI | Salud | [Ver proyecto](https://clara-medical-ai.vercel.app/) |
