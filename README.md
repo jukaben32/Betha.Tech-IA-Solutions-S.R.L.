@@ -61,4 +61,4 @@ El CRM está enlazado, pero no sincronizado: el formulario sigue descargando un 
 
 Los 19 destinos oficiales proporcionados por el propietario están en `proyectos-destacados.json` y se muestran en la sección Productos. Cada tarjeta permite abrir la web en otra pestaña y preparar un brief de implementación. Las descripciones expresan el enfoque del proyecto; no constituyen verificación de todas sus funciones, disponibilidad ni resultados.
 
-El código de OmniSched muestra la marca TimeAlign; la landing utiliza “TimeAlign / OmniSched” para identificarlo. Los nombres Smile Suite, Micheline / Beautera y Clara Medical AI se conservan sin atribuir módulos no verificados. El CRM Betha mantiene su sección y enlace independientes.
+El código de OmniSched muestra la marca TimeAlign; la landing utiliza “TimeAlign / OmniSched” para identificarlo. Los nombres Smile Suite, Micheline / Beautera y Clara Medical AI se conservan sin atribuir módulos no verificados. El CRM Betha (WACRM) se presenta como una tarjeta más del catálogo; la landing ya no tiene una sección aparte para él.
