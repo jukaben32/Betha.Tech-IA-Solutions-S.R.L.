@@ -20,7 +20,7 @@ Selección proporcionada por el propietario. Estado de la landing: enlaces y bot
 | EstateCall | Inmobiliarias | [Ver proyecto](https://saas-ia-agent-adaptable.vercel.app/) |
 | Sistema Restaurante | Restaurantes | [Ver proyecto](https://sistema-restaurante-peach.vercel.app/login) |
 | CRM Betha | CRM para WhatsApp | [Ver proyecto](https://wacrm-weld-eight.vercel.app/login) |
-| Dominican OTA | Turismo y viajes | [Ver proyecto](https://github.com/jukaben32/Dominican-OTA-Booking-System) |
+| Dominican OTA | Turismo y viajes | [Ver proyecto](https://dominican-ota.vercel.app/) |
 | DriveIA | Automoción | [Ver proyecto](https://drive-ia-platform.vercel.app/) |
 | Beauty & Barber AI | Belleza | [Ver proyecto](https://beauty-barber-ai-agent-saa-s.vercel.app/) |
 | Clara Medical AI | Salud | [Ver proyecto](https://clara-medical-ai.vercel.app/) |
