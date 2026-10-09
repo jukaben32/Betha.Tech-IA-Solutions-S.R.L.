@@ -112,13 +112,6 @@
     "url": "https://crm-agentevoz.vercel.app/"
   },
   {
-    "name": "EstateCall",
-    "category": "Atención y ventas",
-    "sector": "Inmobiliarias",
-    "description": "Agentes de IA para llamadas, citas y gestión de propiedades en equipos inmobiliarios.",
-    "url": "https://saas-ia-agent-adaptable.vercel.app/"
-  },
-  {
     "name": "Sistema Restaurante",
     "category": "Operación y datos",
     "sector": "Restaurantes",

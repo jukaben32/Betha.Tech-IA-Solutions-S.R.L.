@@ -17,7 +17,6 @@ Selección proporcionada por el propietario. Estado de la landing: enlaces y bot
 | Smile Suite | Proyecto sectorial | [Ver proyecto](https://smile-suite-493o.vercel.app/) |
 | Micheline / Beautera | Proyecto sectorial | [Ver proyecto](https://micheline-v2-beautera-w72i.vercel.app/) |
 | VoiceOps | Talleres mecánicos | [Ver proyecto](https://crm-agentevoz.vercel.app/) |
-| EstateCall | Inmobiliarias | [Ver proyecto](https://saas-ia-agent-adaptable.vercel.app/) |
 | Sistema Restaurante | Restaurantes | [Ver proyecto](https://sistema-restaurante-peach.vercel.app/login) |
 | CRM Betha | CRM para WhatsApp | [Ver proyecto](https://wacrm-weld-eight.vercel.app/login) |
 | Dominican OTA | Turismo y viajes | [Ver proyecto](https://dominican-ota.vercel.app/) |
