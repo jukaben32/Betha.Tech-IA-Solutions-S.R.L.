@@ -124,5 +124,12 @@
     "sector": "Restaurantes",
     "description": "Sistema de gestión para restaurantes con acceso por roles: administrador, mesero y cocinero.",
     "url": "https://sistema-restaurante-peach.vercel.app/login"
+  },
+  {
+    "name": "CRM Betha",
+    "category": "Atención y ventas",
+    "sector": "CRM para WhatsApp",
+    "description": "Centraliza conversaciones, contactos y seguimiento comercial de WhatsApp en un solo panel.",
+    "url": "https://wacrm-weld-eight.vercel.app/login"
   }
 ]
