@@ -21,7 +21,7 @@ if(/Nexo|NEXO|>nexo</.test(html))throw Error('Old branding');
 if(!html.includes('href="https://wacrm-weld-eight.vercel.app/dashboard"'))throw Error('CRM destination');
 const categories=['Atención y ventas','Negocios locales','Operación y datos'];
 const cards=[...html.matchAll(/class="product" data-category="([^"]+)"/g)].map(m=>({dataset:{category:m[1]},hidden:false}));
-if(cards.length!==15)throw Error('Product catalog');
+if(cards.length!==17)throw Error('Product catalog');
 const buttons=categories.map(category=>({dataset:{categoryFilter:category},setAttribute(){},addEventListener(t,fn){this[t]=fn}}));
 const socials=[...html.matchAll(/data-social="([^"]+)"/g)].map(m=>({dataset:{social:m[1]},addEventListener(t,fn){this[t]=fn}}));
 if(socials.length!==7)throw Error('Social icons');
@@ -30,13 +30,13 @@ el('contacto').scrollIntoView=()=>{};
 context.matchMedia=()=>({matches:true});
 context.document.querySelectorAll=s=>s==='[data-social]'?socials:s==='[data-category-filter]'?buttons:s==='.product'?cards:s==='[data-product]'?productButtons:[];
 vm.runInContext(scripts[1][1],context);
-buttons[0].click();if(cards.filter(c=>!c.hidden).length!==3)throw Error('Sales product filtering');
+buttons[0].click();if(cards.filter(c=>!c.hidden).length!==5)throw Error('Sales product filtering');
 buttons[1].click();if(cards.filter(c=>!c.hidden).length!==9)throw Error('Local businesses filtering');
 socials[0].click();if(!el('socialStatus').textContent.includes('perfil demo'))throw Error('Demo social feedback');
 productButtons[0].click({preventDefault(){}});if(el('goal').value!=='DriveIA')throw Error('Product brief prefill');
 console.log('Passed: Betha branding, CRM destination, product catalog, filters, seven demo social icons and brief prefill.');
 
 const featured=JSON.parse(fs.readFileSync('proyectos-destacados.json','utf8'));
-if(featured.length!==15||new Set(featured.map(p=>p.url)).size!==15)throw Error('Featured URLs');
+if(featured.length!==17||new Set(featured.map(p=>p.url)).size!==17)throw Error('Featured URLs');
 for(const p of featured){if(!html.includes('href="'+p.url+'"'))throw Error('Missing project destination: '+p.name);if(!html.includes('<option>'+p.name+'</option>'))throw Error('Missing brief option: '+p.name)}
-console.log('Passed: all 15 supplied project URLs and product brief options.');
+console.log('Passed: all 17 supplied project URLs and product brief options.');

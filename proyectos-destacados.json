@@ -103,5 +103,19 @@
     "sector": "Salud",
     "description": "Explora el proyecto Clara Medical AI y una propuesta de atención para el sector salud.",
     "url": "https://clara-medical-ai.vercel.app/"
+  },
+  {
+    "name": "VoiceOps",
+    "category": "Atención y ventas",
+    "sector": "Talleres mecánicos",
+    "description": "Recepcionista telefónico con IA y CRM para talleres mecánicos y centros de servicio del automóvil.",
+    "url": "https://crm-agentevoz.vercel.app/"
+  },
+  {
+    "name": "EstateCall",
+    "category": "Atención y ventas",
+    "sector": "Inmobiliarias",
+    "description": "Agentes de IA para llamadas, citas y gestión de propiedades en equipos inmobiliarios.",
+    "url": "https://saas-ia-agent-adaptable.vercel.app/"
   }
 ]
